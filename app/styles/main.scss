@@ -184,6 +184,20 @@ code {
 .sent-received-table > tbody > tr.alt > td.open, .sent-received-table tbody > tr > td.open, .btn-track.open {
     background-color: #f9f8f8;
 }
+.btn-track.open
+{
+    background-image: url('../images/arrow-down.gif'); 
+   background-repeat: no-repeat;
+    background-position: right center;
+    padding-right:25px;
+}
+.btn-track
+{
+    background-image: url('../images/arrow-up.gif'); 
+   background-repeat: no-repeat;
+    background-position: right center;
+    padding-right:25px;
+}
 .sent-received-table tbody > tr.datatr > td {
     border:none;
     padding-top:0px;
